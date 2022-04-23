@@ -16,11 +16,38 @@ body {
     border: 1px solid white;
 }
 
-.big_image {
-    width: 100%;
-}
-
 #start,
 #status {
     font-size: 22px;
+}
+
+#restart {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 50px;
+}
+
+.modal-dialog {
+    width: 70%;
+}
+
+.modal-body {
+    text-align: left;
+    font-size: 20px;
+}
+
+h4 {
+    position: fixed;
+    bottom: 0;
+    background-color: grey;
+    color: white;
+    line-height: 2;
+    width: 100%;
+}
+
+canvas {
+    margin-bottom: 150px;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px white;
 }
